@@ -1,0 +1,3 @@
+<resources>
+    <style name="PKDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert" />
+</resources>

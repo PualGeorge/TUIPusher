@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@android:color/transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="15dp">
+
+
+    <Button
+        android:id="@+id/btn_pk"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/app_bg_login_button"
+        android:padding="5dp"
+        android:text="PK"
+        android:textColor="@color/app_color_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_link_stop"
+        app:layout_constraintStart_toStartOf="@+id/btn_link_stop" />
+
+    <Button
+        android:id="@+id/btn_switch_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/app_bg_login_button"
+        android:padding="5dp"
+        android:text="@string/app_switch_camera"
+        android:textColor="@color/app_color_white"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_mirror"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_mirror" />
+
+    <Button
+        android:id="@+id/btn_mirror"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/app_bg_login_button"
+        android:padding="5dp"
+        android:text="@string/app_set_mirror"
+        android:textColor="@color/app_color_white"
+        app:layout_constraintBottom_toTopOf="@+id/btn_link_stop"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_resolution"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:background="@drawable/app_bg_login_button"
+        android:padding="5dp"
+        android:text="@string/app_set_resolution"
+        android:textColor="@color/app_color_white"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_link_stop"
+        app:layout_constraintEnd_toEndOf="@+id/btn_switch_camera"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_switch_camera"
+        app:layout_constraintTop_toTopOf="@+id/btn_link_stop" />
+
+    <Button
+        android:id="@+id/btn_link_stop"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/app_bg_login_button"
+        android:padding="5dp"
+        android:text="@string/app_stop_link"
+        android:textColor="@color/app_color_white"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pk"
+        app:layout_constraintEnd_toEndOf="@+id/btn_mirror"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_mirror" />
+
+    <EditText
+        android:id="@+id/et_pk_user_id"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/app_bg_edit_text"
+        android:gravity="center"
+        android:hint="@string/app_hint_input_user_id"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_pk"
+        app:layout_constraintEnd_toStartOf="@+id/btn_pk"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_pk"
+        app:layout_constraintVertical_bias="0.461" />
+</androidx.constraintlayout.widget.ConstraintLayout>

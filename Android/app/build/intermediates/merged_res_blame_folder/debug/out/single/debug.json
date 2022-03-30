@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/build/intermediates/res/merged/debug/layout_app_activity_login.xml.flat",
+        "source": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/src/main/res/layout/app_activity_login.xml"
+    },
+    {
+        "merged": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/build/intermediates/res/merged/debug/drawable_app_bg_login_button.xml.flat",
+        "source": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/src/main/res/drawable/app_bg_login_button.xml"
+    },
+    {
+        "merged": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/build/intermediates/res/merged/debug/layout_app_function_view.xml.flat",
+        "source": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/src/main/res/layout/app_function_view.xml"
+    },
+    {
+        "merged": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/build/intermediates/res/merged/debug/drawable_app_bg_edit_text.xml.flat",
+        "source": "/Users/cpc/githubModifiy/myGithub/TUIPusher/Android/app/src/main/res/drawable/app_bg_edit_text.xml"
+    }
+]
